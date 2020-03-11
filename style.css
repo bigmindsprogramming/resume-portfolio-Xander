@@ -1,0 +1,112 @@
+
+.header {
+    display: grid;
+    grid-template-columns:8fr 2fr;
+    grid-gap: 0px;
+    width: 1000px;
+    background-color: rgb(2, 2, 40);
+    /* color: white; */
+    padding: 10px 10px 10px 20px;
+    margin-left: 12%;
+}
+.header-col-1 {
+    width:800px;
+}
+.header-col-1 h2 {
+    color: white;
+    font-size: 30px;
+}
+.header-col-1>p {
+    color: red;
+    font-size: 20px;
+}
+.header-col-1 .header-nav {
+    color: rgb(213, 213, 213);
+    font-size: 14px;
+    line-height: 9px;
+}
+/* .address p {
+    color: red;
+} */
+
+.header-col-2 {
+    width: 200px;
+    padding: 20px 20px 0 0;
+}
+
+.header-col-2 img {
+    border-radius: 50%;
+}
+
+.body {
+    width: 1000px;
+    margin-left: 12%;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap: 10px;
+}
+.body-1 {
+    height: 950px;
+    background-color:grey;
+    padding: 5px 5px 5px 10px;
+    margin-top: 10px;
+}
+.body-2 {
+    margin-top: 10px;
+    height: 950px;
+    padding: 5px 10px 5px 5px;
+}
+.content-left-1, .content-left-2, .content-left-3 {
+    padding: 0 0 0 20px;
+}
+.content-left-1 h3, .content-left-2 h3, .content-left-3 h3 {
+    color: rgba(167, 3, 3, 0.933);
+    font-size: 25px;
+}
+.content-left-1 p, .content-left-2 p{
+    color: rgb(230, 229, 229);
+    font-size: 14px;
+    line-height: 9px;
+}
+.content-left-3 h4 {
+    font-size: 15px;
+    line-height: 10px;
+    color: rgb(240, 238, 238);
+}
+.content-left-3 p {
+    font-size: 14px;
+    line-height: 9px;
+    color: rgb(199, 198, 198);
+}
+.redline {
+    width: 100%;
+    border-bottom: 2px solid red;
+}
+.content-right-1 p {
+    font-size: 14px;
+    line-height: 13px;
+}
+.content-right-2 {
+    margin-bottom: 20px;
+}
+.content-right-2 div{
+    line-height: 13px;
+}
+.subcontent-right-2 h4{
+    line-height: 9px;
+}
+.subcontent-right-2 p {
+    font-size: 14px;
+    line-height: 9px;
+}
+.subcontent-right-2 li {
+    font-size: 14px;
+    line-height: 15px;
+}
+.content-right-3 h4{
+    line-height: 9px;
+}
+.content-right-3 p{
+    font-size: 14px;
+    line-height: 9px;
+}
